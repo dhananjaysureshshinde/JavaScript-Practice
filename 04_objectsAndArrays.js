@@ -17,4 +17,13 @@ console.log(customer.firstName.concat(" ",customer.lastName));
 //Another method to access the data through []
 console.log(customer["middleName"]);
 
+//Redeclaring the values stored inside the object.
+customer.firstName = "Dhananjay";
+customer["middleName"] = "Suresh";
+customer.lastName = "Shinde";
+console.log(`${customer.firstName} ${customer.lastName}`);
+console.log("");
+
+
+
 // Arrays in Javascript :
