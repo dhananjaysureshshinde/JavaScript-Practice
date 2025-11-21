@@ -36,6 +36,7 @@
 
  //Constants can be declared once and their values cannot be reused or redeclared. Their values cannot be changed.
  //Ideally values should be declared as a const if you think value is not going to change.
+ //Value should be assigned on the spot else the error will be shown
  
  const pi = 3.14;
  console.log(pi);
@@ -75,6 +76,7 @@
  //Object declaration : Objects are always declared in key value pair combination. 
  //It's a sort of dictionary.
  //When non existent item is called it returns undefined as the object is not available.
+ //Important thing to remember is the syntax with colon and comma separated values.
  let namesAndAge = {
     Dhananjay : 34,
     Garima : 32,
