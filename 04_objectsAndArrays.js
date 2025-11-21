@@ -14,3 +14,7 @@ console.log(customer.lastName);
 console.log(customer.firstName, customer.sex);
 console.log(customer.firstName.concat(" ",customer.lastName));
 
+//Another method to access the data through []
+console.log(customer["middleName"]);
+
+// Arrays in Javascript :
