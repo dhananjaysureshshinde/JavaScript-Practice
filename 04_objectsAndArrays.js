@@ -27,3 +27,15 @@ console.log("");
 
 
 // Arrays in Javascript :
+//Array Declaration :
+let carBrand = ["BMW","Mercedese","Porsche","Volkswagon"];
+console.log(carBrand[2]);
+carBrand[3] = "Skoda";
+console.log(carBrand[3]);
+for(let i = 0; i<carBrand.length; i++)
+{
+    console.log(carBrand[i]);
+    
+}
+
+
