@@ -6,9 +6,7 @@ Files are arranged in a manner that it is easier to understand the flow.
 This repository have JavaScript files created during practice session. 
 
 
-
-
-
+##Git Process
 1. checkout to default branch: **git checkout main** (default branch name is considered main here)
 2. Fetch: **git fetch/ git fetch --all**
 3. Pull: **git pull/ git pull --all**
